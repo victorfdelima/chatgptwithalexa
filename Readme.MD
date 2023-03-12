@@ -6,6 +6,8 @@ Antes de usar este Skill, você precisará configurar alguns serviços:
 
 - Obtenha uma chave de API do OpenAI GPT-3 e substitua "YOUR_OPENAI_API_KEY" na linha 9 do código com a sua chave.
 
+- Você pode pegar a sua API ou criar uma a partir desse link <https://platform.openai.com/account/api-keys>
+
 - Crie um bucket do Amazon S3 e substitua "YOUR_S3_BUCKET_NAME" nas linhas 14 e 37 do código com o nome do seu bucket.
 
 - O Skill usa o AWS SDK para Python (Boto3) para se conectar ao S3. Certifique-se de que suas credenciais do AWS estejam configuradas corretamente.
