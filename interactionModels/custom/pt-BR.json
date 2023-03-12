@@ -1,0 +1,38 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "GPT3",
+      "intents": [
+        {
+          "name": "GetGreetingIntent",
+          "samples": [
+            "oi",
+            "olá",
+            "e aí",
+            "bom dia",
+            "boa tarde",
+            "boa noite"
+          ],
+          "slots": []
+        },
+        {
+          "name": "AskQuestionIntent",
+          "slots": [
+            {
+              "name": "question",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "pergunte ao GPT3 {question}",
+            "o que é {question}",
+            "me conte sobre {question}",
+            "você pode responder {question}",
+            "qual é a resposta para {question}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
