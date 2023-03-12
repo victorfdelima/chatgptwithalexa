@@ -13,11 +13,11 @@ from ask_sdk_model.ui import Image
 from ask_sdk_model.ui import StandardCard
 
 # Configure the OpenAI API key
-openai.api_key = "minhaapidochatgpt"
+openai.api_key = "YOUR_OPENAI_API_KEY"
 
 # Initialize the AWS SDK
 s3 = boto3.client('s3')
-bucket_name = "chatgpt"
+bucket_name = "YOUR_S3_BUCKET_NAME"
 
 # Define the logging configuration
 logger = logging.getLogger(__name__)
